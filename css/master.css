@@ -1,0 +1,157 @@
+#title {
+  background-color: #fc9d9d;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Montserrat";
+  color: #ff847c;
+}
+
+h3 {
+  color: #ff847c;
+  font-family: "Montserrat";
+  padding-top: 2rem;
+}
+
+/* navigation elements */
+.navbar {
+  padding-left: 0;
+  padding-bottom: 9%;
+}
+
+.nav-item {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: normal;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+/* image and intro bloks elements */
+.mobile-phone {
+  width: 45%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-top: 14%;
+  margin-right: 17%;
+  z-index: 1;
+}
+
+@media (max-width:992px) {
+  #features {
+    text-align: center;
+  }
+
+  .mobile-phone {
+    width: 45%;
+    position: static;
+    transform: rotate(0);
+}
+  .feature-box {
+      text-align: center;
+      padding: 9rem 4rem;
+
+    }
+}
+
+.btn {
+  margin: 4rem 1rem;
+}
+
+.intro-in {
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* features */
+.feature-box {
+  text-align: center;
+  padding: 9rem 4rem;
+  position: relative;
+  background-color: white;
+  z-index: 2;
+}
+
+i {
+  color: #fc9d9d;
+}
+
+i:hover {
+  color: #ff847c;
+}
+
+/* testimoneals */
+#testimonials {
+  background-color: #fc9d9d;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Montserrat";
+  color: white;
+}
+
+.dogg {
+  border-radius: 100%;
+  width: 10%;
+}
+
+/* press */
+#press {
+  text-align: center;
+  padding-bottom: 5%;
+  background-color: #fc9d9d;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  line-height: 2rem;
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 5% 17%;
+}
+
+/* call inaction */
+#cta {
+  text-align: center;
+  padding: 5% 10% 7%;
+  background-color: #fc9d9d;
+}
+iframe{
+  padding-right: 3.3rem;
+}
+.callin {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Montserrat";
+  color: white;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 7% 10%;
+}
